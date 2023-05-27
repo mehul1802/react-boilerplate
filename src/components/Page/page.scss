@@ -1,0 +1,39 @@
+@import '../../assets/scss/_colors.scss';
+
+.page__wrapper {
+  font-size: 14px;
+  line-height: 24px;
+  padding: 48px 20px;
+  margin: 0 auto;
+  max-width: 600px;
+  color: $color_black_light;
+
+  h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1;
+    margin: 0 0 4px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  p {
+    margin: 1em 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: $color_blue;
+  }
+  
+  ul {
+    padding-left: 30px;
+    margin: 1em 0;
+  }
+  
+  li {
+    margin-bottom: 8px;
+  }
+}
+
+
